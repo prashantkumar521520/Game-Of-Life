@@ -1,6 +1,5 @@
 package gameoflife;
 
-import gameoflife.Game_Of_Life.Game_Of_Life;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
