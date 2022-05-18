@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gameoflife.Game_Of_Life_Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-18T07:26:31" hostname="Prashants-MacBook-Pro.local" time="0.018">
+<testsuite name="gameoflife.Game_Of_Life_Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-05-18T07:27:32" hostname="Prashants-MacBook-Pro.local" time="0.034">
   <properties/>
-  <testcase name="blockPattern()" classname="gameoflife.Game_Of_Life_Test" time="0.018"/>
+  <testcase name="blockPattern()" classname="gameoflife.Game_Of_Life_Test" time="0.029"/>
+  <testcase name="boatPattern()" classname="gameoflife.Game_Of_Life_Test" time="0.003"/>
   <system-out><![CDATA[
+
+
+
+
+
+
+
+
+
+
 
 
 
