@@ -24,4 +24,15 @@ public class Game_Of_Life_Test {
 
         assertArrayEquals(new int[][]{{0, 1}, {0, 2}, {1, 0}, {1, 2}, {2, 1}}, nextGeneration.toArray());
     }
+
+    @Test
+    void blinkerPattern() {
+        Game_Of_Life game_of_life = new Game_Of_Life(new int[][]{{1, 1}, {1, 0}, {1, 2}});
+
+        List<int[]> nextGeneration = game_of_life.getNextGeneration();
+
+        assertArrayEquals(new int[][]{{0, 1}, {1, 1}, {2, 1}}, nextGeneration.toArray());
+    }
+
+
 }
